@@ -43,23 +43,27 @@ img {
 
 .job {
     color: #ff0099;
+    font-size: 25px;
+}
+
+.introduction {
     font-size: 20px;
 }
 
 h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .separator {
     text-align: center;
-    padding: 20px 0 0 0;
+    padding: 30px 0 0 0;
 }
 
 .def{
     padding:20px 0%;
 }
 
-.def p{
-    font-size: 20px;
+.def h3{
+    font-size: 25px;
 }
