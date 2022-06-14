@@ -4,14 +4,14 @@ body {
     font-family: courier;
 }
 
-.topNav {
+header {
     overflow: hidden;
     background-color: #333;
     padding: 0 10%;
     height: 40px;
 }
 
-.menuLinks {
+nav {
    display: inline-block;
     position: absolute;
     right: 10%;
@@ -29,7 +29,7 @@ body {
     color:#ff0099;
 }
 
-.content {
+main {
     padding: 50px 10%;
 }
 
@@ -56,10 +56,18 @@ h2 {
     margin: 50px 0 0 0;
 }
 
-.def{
+section {
     margin: 50px 0;
 }
 
-.def h3{
+section h3 {
     font-size: 25px;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    line-height: 1.6;
 }
